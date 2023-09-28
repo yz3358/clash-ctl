@@ -1,4 +1,7 @@
-# Credit 
+# clash-ctl
+A cli for controling clash server. It works well on Linux / MacOS. Not compatible with Powershell.
+
+## Credit 
 This project is just a copy of [Dreamacro's clash-ctl](https://github.com/Dreamacro/clash-ctl), with a few added features (that are inspired by [yichengchen's clashX](https://github.com/yichengchen/clashX)).
 
 - proxies table sorted by delay 
@@ -7,11 +10,9 @@ This project is just a copy of [Dreamacro's clash-ctl](https://github.com/Dreama
 
 I think clashX is great, and I want to use it on linux, thus I created this project.
 
-It works well on Linux / MacOS. Not compatible with Powershell.
-
 As of now, the program assumes the server is running with only 1 custom selector. This should work in most cases.
 
-# Getting Started
+## Getting Started
 
 ```bash
 go mod download
@@ -21,7 +22,7 @@ go build -o bin/clash-ctl
 ./bin/clash-ctl
 ```
 
-# Key Features
+## Key Features
 ```bash
 # add a clash server (to your local clash controller, e.g. 127.0.0.1:9090) 
 server add
